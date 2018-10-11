@@ -33,7 +33,7 @@ var internals = {
       host: '0.0.0.0',
       path: '/act',
       protocol: 'http',
-      timeout: 5555,
+      timeout: 15555,
       max_listen_attempts: 11,
       attempt_delay: 222,
       serverOptions: {}
@@ -42,7 +42,7 @@ var internals = {
       type: 'tcp',
       host: '0.0.0.0',
       port: 10201,
-      timeout: 5555
+      timeout: 15555
     }
   },
   plugin: 'transport'
